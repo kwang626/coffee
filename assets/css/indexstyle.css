@@ -1,0 +1,177 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#navbar {
+	position: fixed;
+    width: 100%;
+    padding: 10px 0px;
+  	background: #472A22;
+    height:35px;
+    z-index: 20;
+}
+
+.navbar-text {
+	display: inline-block;
+	color: white;
+    padding: 0px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#title {
+	position: absolute;
+	top: 70px;
+	text-align: center;
+	width: 100%;
+	background-color: grey;
+}
+
+#title-text {
+	font-size: 50px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: white;
+}
+
+#banner {
+	top: 55px;
+	position: fixed;
+	overflow:hidden;
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/coffee-index-wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 100% auto;
+    filter: brightness(0.8);
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.darken {
+	filter: brightness(0.5);
+}
+
+.brighten {
+	filter:brightness(1);
+}
+
+#content {
+	top: 455px;
+	position: relative;
+
+}
+
+#grid-content {
+	position: relative;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 0px;
+}
+
+
+.content-card {
+	height: 300px;
+	border-style: solid;
+	text-align: center;
+	background-color: green;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#content-card-1 {
+	background-image: url("../img/philz-coffee-2.jpg");
+	background-size: 100% auto;
+}
+
+#content-card-2 {
+	background-image: url("../img/blue-bottle-3.jpg");
+	background-size: 100% auto;
+	background-position: 60% 60%;
+}
+
+#content-card-3 {
+	background-image: url("../img/brewed-awakening.jpg");
+	background-size: 100% auto;
+	background-position: 50% 50%;
+}
+
+#content-card-4 {
+	background-image: url("../img/1951-2.jpg");
+	background-size: 100% auto;
+	background-position: 30% 40%;
+}
+
+#content-card-5 {
+	background-image: url("../img/cafe-strada-1.jpg");
+	background-size: 100% auto;
+	background-position: 50% 50%;
+}
+
+#content-card-6 {
+	background-image: url("../img/sodoi-1.jpg");
+	background-size: 100% auto;
+	background-position: 70% 50%;
+}
+
+.card-title {
+	font-size: 30px;
+	position: relative;
+	top: 200px;
+	right: 30px;
+	text-align: right;
+	color: white;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+#wrapper {
+	width: 100vw;
+}
+
+#intro {
+	height: 270px;
+	width: 100%;
+	background-color: #DAD2BC;
+	text-align: center;
+}
+
+#intro-text {
+	margin: 0;
+	position: relative;
+	top: 110px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+#back {
+	position: absolute;
+	width: 120px;
+	top: 30px;
+	right:30px;
+	border-color: #472A22;
+	color: #472A22;
+	height: 30px;
+	border: solid;
+	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+	text-decoration: none;
+	border-color: #472A22;
+	color: #472A22;
+
+}

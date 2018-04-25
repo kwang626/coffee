@@ -1,0 +1,141 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height:100%;
+}
+
+#navbar {
+	position: fixed;
+    width: 100%;
+    padding: 10px 0px;
+  	background: #2f353f;
+    height:35px;
+    z-index: 20;
+}
+
+.navbar-text {
+	display: inline-block;
+	color: white;
+    padding: 0px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#content {
+	position: relative;
+	display: grid;
+	height: 100%;
+	grid-template-columns: 50% 50%;
+}
+
+#pictures {
+	background-color: #F5F1ED;
+	width:100%;
+}
+
+#information {
+	background-color: #F5F1ED;
+	align-content: center;
+	text-align: center;
+}
+
+.pic {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-section {
+	width: 100%;
+}
+
+#carousel-container {
+	position: relative;
+	left: 0%;
+	z-index: 3;
+/*	transform: translate(-50%, 0);
+*/	background-color: grey;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+#text {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 170px;
+	text-align: center;
+	vertical-align: middle;
+	border-left: solid;
+	border-right: solid;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right-color: #472A22;
+	border-left-color: #472A22;
+	font-family: 'Quicksand', sans-serif;
+
+
+}
+
+#address-button, #hours-button, #phone-number-button {
+	width: 120px;
+/*	background-color: #A44A3F;
+*/	vertical-align: middle;
+	height: 50px;
+	border: solid;
+	border-color: #472A22;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#back {
+	position: absolute;
+	width: 120px;
+	top: 30px;
+	right:30px;
+	border-color: #472A22;
+	color: #472A22;
+	height: 30px;
+	border: solid;
+	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+	text-decoration: none;
+	border-color: #472A22;
+	color: #472A22;
+
+}
+
+
+
+
+/*#carousel-strip {
+	transition: 0.4s;
+	position: absolute;
+	left: 0;
+	display: flex;
+}
+
+
+/*.carousel-section img {
+	width: 50%;
+}*/
